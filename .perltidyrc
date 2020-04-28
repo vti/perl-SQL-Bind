@@ -1,0 +1,8 @@
+--output-line-ending=unix
+--maximum-line-length=120
+--paren-tightness=2
+--square-bracket-tightness=2
+--brace-tightness=2
+--nospace-terminal-semicolon
+--nospace-for-semicolon
+--trim-qw
