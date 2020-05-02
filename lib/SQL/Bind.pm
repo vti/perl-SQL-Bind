@@ -130,7 +130,7 @@ A placeholders is an alphanumeric sequence that is prefixed with C<:> and can en
 
 =head2 C<Scalar values>
 
-Every value is replace with a C<?>.
+Every value is replaced with a C<?>.
 
     my ($sql, @bind) =
       sql 'SELECT foo FROM bar WHERE id=:id AND status=:status',
