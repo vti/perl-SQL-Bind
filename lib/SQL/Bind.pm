@@ -4,7 +4,7 @@ use warnings;
 use base 'Exporter';
 our @EXPORT_OK = qw(sql);
 
-our $VERSION = '1.00';
+our $VERSION = '1.01';
 
 sub sql {
     my ($sql, %params) = @_;

@@ -63,7 +63,7 @@
          "web" : "https://github.com/vti/perl-SQL-Bind"
       }
    },
-   "version" : "1.00",
+   "version" : "1.01",
    "x_contributors" : [
       "vti <viacheslav.t@gmail.com>"
    ],
