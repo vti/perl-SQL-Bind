@@ -4,7 +4,7 @@ use warnings;
 use base 'Exporter';
 our @EXPORT_OK = qw(sql);
 
-our $VERSION = '1.01';
+our $VERSION = '1.02';
 
 our $PlaceholderPrefix = ':';
 our $PlaceholderRegex  = qr/(?i)([a-z_][a-z0-9_]*)/;
