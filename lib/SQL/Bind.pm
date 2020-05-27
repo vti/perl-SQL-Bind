@@ -14,7 +14,13 @@ sub sql {
 
     my @bind;
 
-    $sql =~ s{${PlaceholderPrefix}${PlaceholderRegex}(!|\*)?}{
+    my $exceptions = '';
+
+    if ($PlaceholderPrefix eq ':') {
+        $exceptions = '(?<!:)';
+    }
+
+    $sql =~ s{$exceptions${PlaceholderPrefix}${PlaceholderRegex}(!|\*)?}{
         my $options = $2
           ? {
             {
